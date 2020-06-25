@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 124367232,
+              "duration": 95092526,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 96867,
+              "duration": 48795,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2067649,
+              "duration": 1233603,
               "status": "passed"
             },
             "line": 7,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 133028,
+              "duration": 36056,
               "status": "passed"
             },
             "line": 8,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 110483,
+              "duration": 28428,
               "status": "passed"
             },
             "line": 9,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 66929,
+              "duration": 28323,
               "status": "passed"
             },
             "line": 10,
@@ -94,7 +94,7 @@
         "steps": [
           {
             "result": {
-              "duration": 63743,
+              "duration": 38974,
               "status": "passed"
             },
             "line": 13,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 41313,
+              "duration": 34598,
               "status": "passed"
             },
             "line": 14,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 42800,
+              "duration": 47404,
               "status": "passed"
             },
             "comments": [
@@ -136,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 36155,
+              "duration": 32150,
               "status": "passed"
             },
             "line": 17,
@@ -148,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 35766,
+              "duration": 26619,
               "status": "passed"
             },
             "line": 18,
@@ -165,6 +165,6 @@
     "description": "As a valid user , I should be able to login to the application.",
     "id": "test-login-functionality",
     "keyword": "Feature",
-    "uri": "login.feature"
+    "uri": "Feature/login.feature"
   }
 ]

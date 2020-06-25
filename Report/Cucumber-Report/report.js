@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Feature/login.feature");
 formatter.feature({
   "line": 1,
   "name": "Test login functionality",
@@ -48,42 +48,42 @@ formatter.match({
   "location": "LoginTest.i_open_the_browser()"
 });
 formatter.result({
-  "duration": 124367232,
+  "duration": 95092526,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_go_to_the_application()"
 });
 formatter.result({
-  "duration": 96867,
+  "duration": 48795,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_should_see_the_logo()"
 });
 formatter.result({
-  "duration": 2067649,
+  "duration": 1233603,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_enter_valid_username()"
 });
 formatter.result({
-  "duration": 133028,
+  "duration": 36056,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_enter_valid_password()"
 });
 formatter.result({
-  "duration": 110483,
+  "duration": 28428,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_click_the_login_button()"
 });
 formatter.result({
-  "duration": 66929,
+  "duration": 28323,
   "status": "passed"
 });
 formatter.scenario({
@@ -129,35 +129,35 @@ formatter.match({
   "location": "LoginTest.i_open_the_browser()"
 });
 formatter.result({
-  "duration": 63743,
+  "duration": 38974,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_go_to_the_application()"
 });
 formatter.result({
-  "duration": 41313,
+  "duration": 34598,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_enter_valid_username()"
 });
 formatter.result({
-  "duration": 42800,
+  "duration": 47404,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_enter_valid_password()"
 });
 formatter.result({
-  "duration": 36155,
+  "duration": 32150,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_click_the_login_button()"
 });
 formatter.result({
-  "duration": 35766,
+  "duration": 26619,
   "status": "passed"
 });
 });

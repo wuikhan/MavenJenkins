@@ -38,6 +38,4 @@ public class LoginTest {
 	public void i_click_the_login_button() throws Throwable {
 		 System.out.println("I click the login button");
 	}
-
-
 }
