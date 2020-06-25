@@ -31,7 +31,7 @@ public class LoginTest {
 	@Then("^I enter valid password$")
 	public void i_enter_valid_password() throws Throwable {
 		 System.out.println("I enter valid password");
-		 Assert.assertTrue(true);
+		 Assert.assertTrue(false);
 	}
 
 	@When("^I click the login button$")
