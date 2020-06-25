@@ -20,7 +20,7 @@ public class LoginTest {
 	@Then("^I should see the logo$")
 	public void i_should_see_the_logo() {
 		 System.out.println("I should see the logo");
-	Assert.assertTrue(true);
+	Assert.assertTrue(false);
 	}
 
 	@Then("^I enter valid username$")
