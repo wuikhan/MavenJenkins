@@ -125,28 +125,28 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 2052627394,
+  "duration": 4069345105,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "duration": 476787259,
+  "duration": 3637822567,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_maximize_my_window()"
 });
 formatter.result({
-  "duration": 184457316,
+  "duration": 31082808,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "duration": 204956621,
+  "duration": 77813114,
   "status": "passed"
 });
 formatter.scenario({
@@ -228,7 +228,7 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 743099807,
+  "duration": 199393905,
   "status": "passed"
 });
 formatter.match({
@@ -241,23 +241,70 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 108683416,
+  "duration": 126246244,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_click_the_login_button()"
 });
 formatter.result({
-  "duration": 741648740,
+  "duration": 3610068151,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logout_link()"
 });
 formatter.result({
-  "duration": 2289925036,
+  "duration": 70809897,
   "status": "passed"
 });
 formatter.match({
   "location": "AccountTest.I_click_Accounts_tab()"
+});
+formatter.result({
+  "duration": 510277983,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AccountTest.I_am_on_Accounts_home_page()"
+});
+formatter.result({
+  "duration": 27597279,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AccountTest.I_click_the_new_button()"
+});
+formatter.result({
+  "duration": 515969260,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AccountTest.I_enter_Account_Name_field()"
+});
+formatter.result({
+  "duration": 38586886,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AccountTest.I_click_the_save_button()"
+});
+formatter.result({
+  "duration": 287654838,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AccountTest.I_should_see_the_Account_record()"
+});
+formatter.result({
+  "duration": 4986235,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTest.i_quit()"
+});
+formatter.result({
+  "duration": 79679437,
+  "status": "passed"
+});
 });
