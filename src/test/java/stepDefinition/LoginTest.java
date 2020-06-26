@@ -40,7 +40,7 @@ public class LoginTest extends BaseClass {
 	@Then("^I should see the Salesforce logo$")
 	public void I_should_see_the_Salesforce_logo() {
 		boolean isLogoPresent = driver.findElement(By.id("logo")).isDisplayed();
-		Assert.assertTrue(isLogoPresent);
+		Assert.assertTrue(false);
 	}
 
 	@When("^I enter \"([^\"]*)\" username$")
