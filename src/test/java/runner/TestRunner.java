@@ -9,6 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(	features = ".", 
 					glue = "stepDefinition",
 					monochrome = true, 
+					dryRun=true,
 					plugin = { "pretty",
 							"html:Report/Cucumber-Report", 
 							"json:Report/Cucumber-Json/report.json",
